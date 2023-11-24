@@ -1,70 +1,44 @@
-# Project Title
+# Peronista Bot
 
-One Paragraph of project description goes here
+Tweeter bot which main goal is to retweet or post everything related to peronism party.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+### Clone repository
 
-What things you need to install the software and how to install them
-
-```
-Give examples
+```bash
+git clone https://github.com/OrellanaGalo/peronista-bot.git
 ```
 
-### Installing
+### Prerequisites and Installing
 
-A step by step series of examples that tell you how to get a development env running
+**> Python 3.12.0**
 
-Say what the step will be
+You can obtain it via their [website](https://www.python.org/)
 
-```
-Give the example
-```
+**> Tweepy library**
 
-And repeat
+for easy installation use this line in your console
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
+```bash
+pip install tweepy
 ```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+You can modify the code as you wish, feel free to make this bot the modifications you want, also remember that this is a template for making bots, so you can make your own.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Python](https://www.python.org/) - The programming language used
+* [PyCharm](https://www.jetbrains.com/pycharm/) - IDE for programming
+* [Tweepy](https://www.tweepy.org/) - API Used to give functionality
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/OrellanaGalo/peronista-bot/blob/main/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
@@ -72,7 +46,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Galo Orellana** - *Initial work* - [Hanchut](https://github.com/OrellanaGalo)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -82,7 +56,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Special thanks to Javier Milei that made a lot of young people join peronism political parties because of his bad government and fascism
+* I give all my love and appreciation to the people who live in this beautiful country called Argentina. Even those who hate it with all of his heart and try all the time to break it
 
