@@ -1,14 +1,15 @@
 import tweepy
 import time
+from passwords import CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_SECRET, TOPIC, BOT_SCREEN_NAME
 
 # Replace with your API keys and access tokens
-consumer_key = 'YOUR CONSUMER KEY'
-consumer_secret = 'YOUR CONSUMER SECRET'
-access_token = 'YOUR ACCESS TOKEN'
-access_token_secret = 'YOUR ACCESS TOKEN SECRET'
+consumer_key = CONSUMER_KEY
+consumer_secret = CONSUMER_SECRET
+access_token = ACCESS_TOKEN
+access_token_secret = ACCESS_SECRET
 
 # Set the topic you're interested in
-topic = 'your topic here'
+topic = TOPIC
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -23,7 +24,7 @@ def repost_tweets():
     for tweet in tweets:
         try:
             # Avoid retweeting your own tweets to prevent loops
-            if tweet.user.screen_name != 'your_bot_screen_name':
+            if tweet.user.screen_name != BOT_SCREEN_NAME:
                 api.retweet(tweet.id)
                 print(f"Retweeted: {tweet.text}")
                 time.sleep(2)  # To avoid hitting rate limits
