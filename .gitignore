@@ -1,3 +1,5 @@
 .gitignore
 .idea
 passwords.py
+__pycache__
+bot_data.json
